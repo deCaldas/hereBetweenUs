@@ -18,13 +18,6 @@
   font-family: var(--font-mono);
 }
 
-.description a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 0.5rem;
-}
-
 .description p {
   position: relative;
   margin: 0;
@@ -227,4 +220,27 @@
   to {
     transform: rotate(0deg);
   }
+}
+
+/* style to footer */
+.footer {
+  display: flex; /* Make the footer elements horizontal */
+  justify-content: space-evenly; /* Distribute elements evenly */
+  align-items: center; /* Align elements vertically */
+  padding: 1rem; /* Add some padding */
+}
+
+.icons {
+  display: flex; /* Icons displayed horizontally */
+  gap: 1rem; /* Add spacing between icons */
+}
+
+.branding {
+  text-align: center; /* Center the branding text */
+  margin: 1rem 0; /* Add vertical margin */
+}
+
+.copyDate {
+  text-align: center; /* Center the copyright text */
+  font-size: 0.8rem; /* Adjust font size for a smaller text */
 }
